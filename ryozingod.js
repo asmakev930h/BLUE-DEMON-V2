@@ -507,7 +507,7 @@ if (db.data.settings[botNumber].autobio) {
 let setting = db.data.settings[botNumber]
 if (new Date() * 1 - setting.status > 1000) {
 let uptime = await runtime(process.uptime())
-await ryozingod.updateProfileStatus(`✳️ ZeroXV - Client By : 😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈|| ✅ Runtime : ${uptime}`)
+await ryozingod.updateProfileStatus(`✳️ Mcross - Client By : 😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈|| ✅ Runtime : ${uptime}`)
 setting.status = new Date() * 1
 }
 }
@@ -552,7 +552,7 @@ return crypto.randomBytes(size).toString('hex').slice(0, size)
 //=================================================//
 //Ini Waktu | Waktu adalah emas,maka dari itu sentuh lah rumput.dan jangan nolep dikamar terus,usahakan tu kontol jangan dikocok terus.Lutut ama sikut lu kopong nanti
 const moment = require('moment-timezone');
-const time = moment().tz("Asia/Jakarta").format("HH:mm:ss");
+const time = moment().tz("Afirca/Lagos").format("HH:mm:ss");
 let ucapanWaktu
 if (time >= "19:00:00" && time < "23:59:00") {
 ucapanWaktu = "🌃 HOW FAR😈"
@@ -2092,7 +2092,7 @@ case "menu": case "help": case "helep": {
 let njing = `
    *[ 🕷️ ]  •  😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*
 
-╭❐  ⌜ ZxV - Bot ⌟  ❐
+╭❐  ⌜ 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒 ⌟  ❐
 │⭔ Creator : 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈
 │⭔ Library : WS-Baileys
 │⭔ Type : Case
@@ -2691,13 +2691,13 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*# Zero Execution Vault - 2k24*"
+"text": "😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈"
 },
 "nativeFlowMessage": {
 "buttons": [
 {
 "name": "quick_reply",
-"buttonParamsJson": "{\"display_text\":\"⿻𝐙͢𝐱𝐕⿻\nAKU SUKA AMA LOBANG BOOL KAMU, AYO NGEGAY😋😘\",\"id\":\".terkentod\"}"
+"buttonParamsJson": "{\"display_text\":\"𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒\nI WANNA SUCK YOU DICK DADDY😋😘\",\"id\":\".terkentod\"}"
 }
 ],
 "messageParamsJson": ""
@@ -2730,11 +2730,11 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*# Zero Execution Vault - 2k24*"
+"text": "*𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒*"
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : '🎩 𝐙𝐞𝐫𝐨 𝐗𝐯❗', url : "https://chat.whatsapp.com/KsZgSGIMpzj7lT845IibW4", merchant_url : "https://chat.whatsapp.com/KsZgSGIMpzj7lT845IibW4" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈', url : "https://chat.whatsapp.com/KsZgSGIMpzj7lT845IibW4", merchant_url : "https://chat.whatsapp.com/KsZgSGIMpzj7lT845IibW4" }`}
 ],
 "messageParamsJson": ""
 }
@@ -2849,7 +2849,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": 'By Zero Execution Vault',
+"newsletterName": '𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒',
 "serverMessageId": 1
 },
 },
@@ -2972,7 +2972,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*# Zero Execution Vault - 2k24*"
+"text": "*𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒*"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -3034,7 +3034,8 @@ joreply(jsonData)
 break
 //=================================================//
 case 'sc': case 'script': {
-joreply(`🌤️Sc Ini Dibuat Oleh TheZetsuboXygen (ryo).
+joreply(`🌤️😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 SCRIPT IS PRIVATE
+TO BUY THE SCRIPT......CONTACT👇🏽
 
 ❕MY OWNER WA.CONTACT: ${global.url}
 DON'T DM IF YOU'RE NOT READY TO BUY THE SCRIPT🙂🕷️😈🕸️
