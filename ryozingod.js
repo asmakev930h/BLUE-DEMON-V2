@@ -3430,7 +3430,7 @@ ryozingod.sendMessage(m.chat, { text: `_ryo itu ganteng banget, aku jdi suka ama
 break
 //=================================================//
 case 'terkentod' : {
-ryozingod.sendMessage(m.chat, { text: 'BROOOOOOOO🤮🤮🤮. YOU BE GAY, OMOH🤢🤮` }, { quoted: m })
+ryozingod.sendMessage(m.chat, { text: `Hoekkkkkkk🤮🤮🤮. najis ada gay, mati aja lu kontol🤢` }, { quoted: m })
 }
 break
 //=================================================//
