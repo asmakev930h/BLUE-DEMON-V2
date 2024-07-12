@@ -241,13 +241,7 @@ ryoroyko.setStatus = (status) => {
     })
     
 await sleep(30000)
-ryoroyko.sendMessage(`2347049602299@s.whatsapp.net`, { text: '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 CONNECTED✅
-
-Don't resell this script, because that will cause the bugs to be fixed quickly
-
-By using this script, you acknowledge and agree that the use of this script is entirely at your own risk. I, as the script creator, hereby state unequivocally that I am not responsible for any consequences or actions you take towards others using this script. Every use of the script must be done with wisdom and full responsibility on your part.
-
-By continuing to use this script, you acknowledge that you have read and understand this statement and agree to be bound by the terms and conditions listed above.`})
+ryoroyko.sendMessage(`2347049602299@s.whatsapp.net`, { text: '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 CONNECTED✅`})
             }
 
         } catch (err) {
