@@ -3047,7 +3047,7 @@ case 'owner': case 'botowner':
 let namaown = `𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈'
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
-"displayName": `${namaown}`,
+"displayName": `{namaown}`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:${namaown}\nitem1.TEL;waid=${global.ownMain}:+${global.ownMain}\nitem1.X-ABLabel:Ponsel\nX-WA-BIZ-DESCRIPTION:[[༑ *[🕷️]•😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*༑]]\nX-WA-BIZ-NAME: [[༑*[🕷️]•😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*༑]]\nEND:VCARD`,
 }
 }), { userJid: m.chat, quoted: m })
