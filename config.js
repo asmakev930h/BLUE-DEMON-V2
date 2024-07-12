@@ -23,15 +23,15 @@ global.location = '1' //Ganti Pake Location Panel Lu
 //===========================//
 
 global.prefa = ['','!','.',',','🐤','🗿']
-global.owner = ['254102074064']
-global.ownMain = '254102074064'
-global.NamaOwner = 'thezetsuboxygen' //gausah diganti 
+global.owner = ['2347049602299']
+global.ownMain = '2347049602299'
+global.NamaOwner = '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️' //gausah diganti 
 global.sessionName = 'session'
 global.connect = true // Ubah Ke False Jika Ingin Menggunakan Qr Code
-global.namabot = 'ZxV' //ganti aj klo mau
-global.author = 'thezetsuboxygen' //ganti aj klo mau
-global.packname = 'ZxV' //ganti aj klo mau
-global.url = 'https://www.instagram.com/ryo.r0yko?igsh=MXBtY3hycTIyb3pqZQ==' //gausah diganti
+global.namabot = '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈' //ganti aj klo mau
+global.author = '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈' //ganti aj klo mau
+global.packname = '𝐂𝐎𝐒𝐓𝐒༑⃟' //ganti aj klo mau
+global.url = 'https://Wa.me/2347049602299' //gausah diganti
 
 //===========================//
 
@@ -46,7 +46,7 @@ global.listr = ` │⬡ 1GB Cpu: 50% - 3.000/bln
  
 //===========================//
 
-global.country = `62`
+global.country = `234`
 global.system = {
 gmail: `zxvclientsupp@gmail.com`,
 }
@@ -148,7 +148,7 @@ global.mess = { // bagian ini gausah diganti
  admin: 'This feature is specifically for group admins.',
  owner: 'You are not the owner.',
  premium: 'You are not a premium user.',
- seller: 'This feature can only be used by resellers and owners.',
+ seller: 'This feature can only be used by resellers and 🕷️𝐌-𝐂𝐑𝐎𝐒𝐒🕸️.',
  usingsetpp: `Setpp can only be used by the owner, do you think I'm stupid? 🤓`,
  wait: '*Waiting for processing 🗿🚬*',
  success: 'Success Bang 🗿🚬',
