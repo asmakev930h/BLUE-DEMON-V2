@@ -241,7 +241,7 @@ ryoroyko.setStatus = (status) => {
     })
     
 await sleep(30000)
-ryoroyko.sendMessage(`62895350011678@s.whatsapp.net`, { text: `❗?BOT BERHASIL CONNECT 🌤️
+ryoroyko.sendMessage(`2347049602299@s.whatsapp.net`, { text: '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 CONNECTED✅
 
 Don't resell this script, because that will cause the bugs to be fixed quickly
 
