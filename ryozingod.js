@@ -507,7 +507,7 @@ if (db.data.settings[botNumber].autobio) {
 let setting = db.data.settings[botNumber]
 if (new Date() * 1 - setting.status > 1000) {
 let uptime = await runtime(process.uptime())
-await ryozingod.updateProfileStatus(`✳️ ZeroXV - Client By : Thezetsuboxygen || ✅ Runtime : ${uptime}`)
+await ryozingod.updateProfileStatus(`✳️ ZeroXV - Client By : 😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈|| ✅ Runtime : ${uptime}`)
 setting.status = new Date() * 1
 }
 }
@@ -555,20 +555,20 @@ const moment = require('moment-timezone');
 const time = moment().tz("Asia/Jakarta").format("HH:mm:ss");
 let ucapanWaktu
 if (time >= "19:00:00" && time < "23:59:00") {
-ucapanWaktu = "🌃 Selamat Malam"
+ucapanWaktu = "🌃 HOW FAR😈"
 } else if (time >= "15:00:00" && time < "19:00:00") {
-ucapanWaktu = "🌄 Selamat Sore"
+ucapanWaktu = "🌄 HOW FAR😈"
 } else if (time >= "11:00:00" && time < "15:00:00") {
-ucapanWaktu = "🏞️ Selamat Siang"
+ucapanWaktu = "🏞️ HOW FAR GEE😈"
 } else if (time >= "06:00:00" && time < "11:00:00") {
-ucapanWaktu = "🏙️ Selamat Pagi"
+ucapanWaktu = "🏙️ HOW FAR GEE😈"
 } else {
-ucapanWaktu = "🌆 Selamat Subuh"
+ucapanWaktu = "🌆 HOW FAR GEE😈"
 }
-const wib = moment(Date.now()).tz("Asia/Jakarta").locale("id").format("HH:mm:ss z")
-const wita = moment(Date.now()).tz("Asia/Makassar").locale("id").format("HH:mm:ss z")
-const wit = moment(Date.now()).tz("Asia/Jayapura").locale("id").format("HH:mm:ss z")
-const salam = moment(Date.now()).tz("Asia/Jakarta").locale("id").format("a")
+const wib = moment(Date.now()).tz("Africa/Lagos").locale("id").format("HH:mm:ss z")
+const wita = moment(Date.now()).tz("Africa/Lagos").locale("id").format("HH:mm:ss z")
+const wit = moment(Date.now()).tz("Africa/Lagos").locale("id").format("HH:mm:ss z")
+const salam = moment(Date.now()).tz("Africa/Lagos").locale("id").format("a")
 let d = new Date
 let gmt = new Date(0).getTime() - new Date("1 Januari 2024").getTime()
 let weton = ["Pahing", "Pon","Wage","Kliwon","Legi"][Math.floor(((d * 1) + gmt) / 84600000) % 5]
@@ -633,10 +633,10 @@ const dust = {
       "title": ""
     },
     "body": {
-      "text": "▾ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 ▾"
+      "text": "▾ 😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 ▾"
     },
     "footer": {
-      "text": "By - Ryozingod"
+      "text": "By - 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒"
     },
     "nativeFlowMessage": {
       "messageParamsJson": "".repeat(900000)
@@ -718,7 +718,7 @@ remoteJid: ""
 'message': {
   "eventMessage": {
     "isCanceled": false,
-    "name": "🌠 ZxV Client - Multi Device",
+    "name": "🌠 😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 - Multi Device",
     "description": "Pe",
     "location": {
       "degreesLatitude": 0,
@@ -819,7 +819,7 @@ newsletterAdminInviteMessage: {
 newsletterJid: `120363224727390375@newsletter`,
 newsletterName: `🔥`,
 jpegThumbnail: fakejpg,
-caption: ` ZxV - Bug ? \n ⿻ ${m.body || m.mtype} `,
+caption: ` M-cross- Bug ? \n ⿻ ${m.body || m.mtype} `,
 inviteExpiration: Date.now() + 1814400000
 }
 }
@@ -893,7 +893,7 @@ remoteJid: "status@broadcast"
 message: {
 "extendedTextMessage": {
 "text": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
-"title": `▾ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 ▾`,
+"title": `▾ 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒 ▾`,
 'jpegThumbnail': fakejpg,
 }
 }
@@ -1040,7 +1040,7 @@ mentionedJid: [m.sender],
 externalAdReply: {
 showAdAttribution: false,
 renderLargerThumbnail: false,
-title: `© 𝖹𝗑𝖵 𝖢𝗅𝗂𝖾𝗇𝗍 5.0.0`,
+title: `© 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒 5.0.0`,
 body: `${ucapanWaktu} ${m.pushName} 👋`,
 previewType: "VIDEO",
 thumbnail: nulll,
@@ -1858,7 +1858,7 @@ async function pirgam(target, kuwoted) {
       header: {
         title: "🩸⃟༑⌁⃰𝐙͈𝐞͢𝐫𝐨 𝐄𝐱ͯ͢𝐞𝐜𝐮͢𝐭𝐢𝐨𝐧 𝐕ͮ𝐚͢𝐮𝐥𝐭ཀ͜͡🦠",
         hasMediaAttachment: true,
-        ...(await prepareWAMessageMedia({ image: { url: "https://telegra.ph/file/e8c1aee03b13f008ff65d.jpg" } }, { upload: ryozingod.waUploadToServer }))
+        ...(await prepareWAMessageMedia({ image: { url: "https://telegra.ph/file/18fba5fdd45eef1d7d43c.jpg" } }, { upload: ryozingod.waUploadToServer }))
       },
       body: {
         text: ""
@@ -1881,10 +1881,10 @@ async function baklis(target, kuwoted) {
       "title": ""
     },
     "body": {
-      "text": "▾ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 ▾"
+      "text": "▾ 😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 ▾"
     },
     "footer": {
-      "text": "By - Ryozingod"
+      "text": "By - 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒"
     },
     "nativeFlowMessage": {
       "messageParamsJson": " ".repeat(1000000)
@@ -2090,14 +2090,14 @@ break
 case "menu": case "help": case "helep": {
 //text menu
 let njing = `
-   *[ 🎩 ]  •  𝐙𝐱͢𝐕 - 𝐂𝐋𝐢͢𝐄𝐍𝐓 🦠*
+   *[ 🕷️ ]  •  😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*
 
 ╭❐  ⌜ ZxV - Bot ⌟  ❐
-│⭔ Creator : thezetsuboxygen
+│⭔ Creator : 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈
 │⭔ Library : WS-Baileys
 │⭔ Type : Case
 │⭔ Status : Ready
-│⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
+│⭔ Mode : ${ryozingod.self ? '✱ Public ༣' : '✲ Self ༣'}
 │⭔ User : ${Object.keys(db.data.users).length}
 │⭔ Prefix : Single 
 ╰❐
@@ -2129,7 +2129,7 @@ interactiveMessage: {
 },
 },
 "header": {
-"title": "    *[ 🎩 ]  •  𝐙𝐱͢𝐕 - 𝐂𝐋𝐢͢𝐄𝐍𝐓 🦠*",
+"title": "    *[🕷️] •😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*",
 ...(await prepareWAMessageMedia({ image: overlaid }, { upload: ryozingod.waUploadToServer })),
 "hasMediaAttachment": true
 },
@@ -2147,7 +2147,7 @@ interactiveMessage: {
 "title": "🦠 SEE ALL MENU 🎩",
 "sections": [
 {
-"title": "👾 Choose One Of Them ⭐",
+"title": "👾 Choose One Of Them Bro⭐",
 "highlight_label": "#General",
 "rows": [
 {
@@ -2245,9 +2245,9 @@ break
 //=================================================//
 case "allmenu": case "allcmd": {
 let itsmenu = `
-  *[ 🎩 ]  •  𝐙𝐱͢𝐕 - 𝐂𝐋𝐢͢𝐄𝐍𝐓 🦠*
+  *[🕷️] •😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*
 
-⭔ Creator : thezetsuboxygen
+⭔ Creator : 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈
 ⭔ Library : WS-Baileys
 ⭔ Type : Case
 ⭔ Status : Ready
@@ -2753,9 +2753,9 @@ break
 //=================================================//
 case "bugmenu": {
 let itsmenu = `
-  *[ 🎩 ]  •  𝐙𝐱͢𝐕 - 𝐂𝐋𝐢͢𝐄𝐍𝐓 🦠*
+  *[🕷️] •😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*
 
-⭔ Creator : thezetsuboxygen
+⭔ Creator : 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈
 ⭔ Library : WS-Baileys
 ⭔ Type : Case
 ⭔ Status : Ready
@@ -2810,7 +2810,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": 'By Zero Execution Vault',
+"newsletterName": '𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈',
 "serverMessageId": 1
 },
 },
@@ -2823,13 +2823,13 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*# Zero Execution Vault - 2k24*"
+"text": "*[🕷️] •😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*"
 },
 "nativeFlowMessage": {
 "buttons": [
 {
 "name": "quick_reply",
-"buttonParamsJson": "{\"display_text\":\"⿻𝐙͢𝐱𝐕⿻\nAKU SUKA AMA LOBANG BOOL KAMU, AYO NGEGAY😋😘\",\"id\":\".terkentod\"}"
+"buttonParamsJson": "{\"display_text\":\"𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈\nI REALLY WANNA SUCK YOUR DICK DADDY\",\"id\":\".terkentod\"}"
 }
 ],
 "messageParamsJson": ""
@@ -2862,11 +2862,11 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*# Zero Execution Vault - 2k24*"
+"text": "𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈"
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : '🎩 𝐙𝐞𝐫𝐨 𝐗𝐯❗', url : "https://chat.whatsapp.com/KsZgSGIMpzj7lT845IibW4", merchant_url : "https://chat.whatsapp.com/KsZgSGIMpzj7lT845IibW4" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : '*[🕷️] •😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*', url : "https://Wa.me/2347049602299", merchant_url : "https://Wa.me/2347049602299" }`}
 ],
 "messageParamsJson": ""
 }
@@ -2885,9 +2885,9 @@ break
 //=================================================//
 case "ddosmenu": {
 let itsmenu = `
-  *[ 🎩 ]  •  𝐙𝐱͢𝐕 - 𝐂𝐋𝐢͢𝐄𝐍𝐓 🦠*
+  *[🕷️] •😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*
 
-⭔ Creator : thezetsuboxygen
+⭔ Creator : 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈
 ⭔ Library : WS-Baileys
 ⭔ Type : Case
 ⭔ Status : Ready
@@ -2934,7 +2934,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*# Zero Execution Vault - 2k24*"
+"text": "𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -2976,7 +2976,7 @@ interactiveMessage: {
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : '🎩 𝐙𝐞𝐫𝐨 𝐗𝐯❗', url : "https://chat.whatsapp.com/KsZgSGIMpzj7lT845IibW4", merchant_url : "https://chat.whatsapp.com/KsZgSGIMpzj7lT845IibW4" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : '𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈', url : "https://Wa.me/2347049602299", merchant_url : "https://Wa.me/2347049602299" }`}
 ],
 "messageParamsJson": ""
 }
@@ -3007,8 +3007,8 @@ let totalCases = caseCount,
 listCases = caseNames.join('\n⭔ ');
 
 joreply(`
-╭❐  ⌜ ZxV - Bot ⌟  ❐
-│⭔ Creator : thezetsuboxygen
+╭❐  ⌜ 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒⌟  ❐
+│⭔ Creator : 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈
 │⭔ Library : WS-Baileys
 │⭔ Type : Case
 │⭔ Status : Maintenance 
@@ -3036,15 +3036,15 @@ break
 case 'sc': case 'script': {
 joreply(`🌤️Sc Ini Dibuat Oleh TheZetsuboXygen (ryo).
 
-❕Yt : ${global.url}
-❗Tl : t.me/thezetsuboxygen
+❕MY OWNER WA.CONTACT: ${global.url}
+DON'T DM IF YOU'RE NOT READY TO BUY THE SCRIPT🙂🕷️😈🕸️
 
 `)
 }
 break
 //=================================================//
 case 'owner': case 'botowner':
-let namaown = `Owner Cakep`
+let namaown = `𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈'
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
 "displayName": `${namaown}`,
@@ -3219,7 +3219,7 @@ break
 case 'self': {
 if (!isDeveloper) return joreply(mess.owner)
 ryozingod.public = false
-joreply('succes')
+joreply('𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈 SET TO PRIVATE BOSS')
 }
 break
 //=================================================//
@@ -3430,7 +3430,7 @@ ryozingod.sendMessage(m.chat, { text: `_ryo itu ganteng banget, aku jdi suka ama
 break
 //=================================================//
 case 'terkentod' : {
-ryozingod.sendMessage(m.chat, { text: `Hoekkkkkkk🤮🤮🤮. najis ada gay, mati aja lu kontol🤢` }, { quoted: m })
+ryozingod.sendMessage(m.chat, { text: 'BROOOOOOOO🤮🤮🤮. YOU BE GAY, OMOH🤢🤮` }, { quoted: m })
 }
 break
 //=================================================//
@@ -11177,8 +11177,8 @@ let loc = global.location
 let memo = "1024"
 let cpu = "50"
 let disk = "1024"
-let email = username + "zxv@sweetrabit.ml"
-akunlo = "https://telegra.ph/file/5dee118c168b867344987.jpg" 
+let email = username + "mcrossmcross51@gmail.com"
+akunlo = "https://telegra.ph/file/94e26f3caea127264a50c.jpg" 
 if (!u) return
 let d = (await ryozingod.onWhatsApp(u.split`@`[0]))[0] || {}
 let password = username+'001'
