@@ -10,7 +10,7 @@ viewOnceMessage: {
 message: {
 interactiveMessage: {
 "header": {
-"title": "*[ 🎩 ]•𝐙𝐱͢𝐕 - 𝐂𝐋𝐢͢𝐄𝐍𝐓 🦠*",
+"title": "*😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*",
 ...(await prepareWAMessageMedia({ document: overlaid, pageCount: 9999999, fileLength: 99999999999999, mimetype: 'image/png', jpegThumbnail: await resize(fs.readFileSync(`./media/overlaid.jpg`), 400, 400) }, { upload: ryozingod.waUploadToServer })),
 "hasMediaAttachment": true
 },
@@ -94,7 +94,7 @@ penis()
 const fs = require('fs')
 const path = require('path')
 
-const prefixRegex = /^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/
+const prefixRegex = /^[°•π÷×¶∆£¢€¥®y-™+✓_=|~!?@#$%^&.©^]/
 const prefix = prefa && prefixRegex.test(body) ? body.match(prefixRegex)[0] : (prefa ?? global.prefix)
 const command = body.startsWith(prefix) ? body.slice(prefix.length).trim().split(/ +/).shift().toLowerCase() : ''
 
