@@ -2137,7 +2137,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*# Zero Execution Vault - 2k24*"
+"text": "😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -2208,7 +2208,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": 'By Zero Execution Vault',
+"newsletterName": '𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒',
 "serverMessageId": 1
 },
 },
@@ -2221,11 +2221,11 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*# Zero Execution Vault - 2k24*"
+"text": "😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈"
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : '🎩 𝐙𝐞𝐫𝐨 𝐗𝐯❗', url : "https://chat.whatsapp.com/KsZgSGIMpzj7lT845IibW4", merchant_url : "https://chat.whatsapp.com/KsZgSGIMpzj7lT845IibW4" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈', url : "https://wa.me/2347049602299", merchant_url : "https://wa.me/2347049602299" }`}
 ],
 "messageParamsJson": ""
 }
@@ -2251,7 +2251,7 @@ let itsmenu = `
 ⭔ Library : WS-Baileys
 ⭔ Type : Case
 ⭔ Status : Ready
-⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
+⭔ Mode : ${ryozingod.Self ? '✱ Public ༣' : '✲ Self ༣'}
 ⭔ User : ${Object.keys(db.data.users).length}
 ⭔ Prefix : Single 
  
@@ -2678,7 +2678,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": 'By Zero Execution Vault',
+"newsletterName": '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈',
 "serverMessageId": 1
 },
 },
@@ -2734,7 +2734,7 @@ interactiveMessage: {
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈', url : "https://chat.whatsapp.com/KsZgSGIMpzj7lT845IibW4", merchant_url : "https://chat.whatsapp.com/KsZgSGIMpzj7lT845IibW4" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈', url : "https://wa.me/2347049602299", merchant_url : "https://wa.me/2347049602299" }`}
 ],
 "messageParamsJson": ""
 }
@@ -2921,7 +2921,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": 'By Zero Execution Vault',
+"newsletterName": '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈',
 "serverMessageId": 1
 },
 },
@@ -3431,7 +3431,7 @@ ryozingod.sendMessage(m.chat, { text: `_ryo itu ganteng banget, aku jdi suka ama
 break
 //=================================================//
 case 'terkentod' : {
-ryozingod.sendMessage(m.chat, { text: `Hoekkkkkkk🤮🤮🤮. najis ada gay, mati aja lu kontol🤢` }, { quoted: m })
+ryozingod.sendMessage(m.chat, { text: `Brooooo🤮🤮🤮. So you be gay🤧, I rebuke you🤧🤢` }, { quoted: m })
 }
 break
 //=================================================//
@@ -3459,7 +3459,7 @@ break
 
 //Convert 
 case 'style': case 'styletext': {
-if (!text) return joreply('Enter Query text!')
+if (!text) return joreply('Enter Query text Nigga!')
 let anu = await styletext(q)
 let teks = `Style Text From ${q}\n\n`
 for (let i of anu) {
