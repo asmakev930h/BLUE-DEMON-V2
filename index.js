@@ -242,7 +242,7 @@ ryoroyko.setStatus = (status) => {
     })
     
 await sleep(30000)
-ryoroyko.sendMessage(`2347049602299@s.whatsapp.net`, { text: `*[🕷️] •😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 CONNECTED AND READY TO SERVE YOU🦠🕷️😈🕸️*`})
+ryoroyko.sendMessage(`2347041039367@s.whatsapp.net`, { text: `*[💠] • 💠BLUE 🌀 DEMON💠 CONNECTED AND READY TO SERVE YOU🦠💠😈🌀*`})
             }
 
         } catch (err) {
