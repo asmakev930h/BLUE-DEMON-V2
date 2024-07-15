@@ -147,7 +147,7 @@ global.mess = { // bagian ini gausah diganti
  ingroup: 'This feature can only be used in groups.',
  admin: 'This feature is specifically for group admins.',
  owner: 'Only *BLUE* can use this👺.',
- premium: 'Who goes you??😡.',
+ premium: 'This feature can only be used by *BLUE* and *BLUE* only.',
  seller: 'This feature can only be used by *BLUE* and *BLUE* only.',
  usingsetpp: `Setpp can only be used by the owner, do you think I'm stupid? 🤓`,
  wait: '*Waiting for processing 🗿🚬*',
