@@ -25,12 +25,12 @@ global.location = '1' //Ganti Pake Location Panel Lu
 global.prefa = ['','!','.',',','🐤','🗿']
 global.owner = ['2347041039367']
 global.ownMain = '2347041039367'
-global.NamaOwner = '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️' //gausah diganti 
+global.NamaOwner = ' 💠BLUE 🌀 DEMON💠' //gausah diganti 
 global.sessionName = 'session'
 global.connect = true // Ubah Ke False Jika Ingin Menggunakan Qr Code
-global.namabot = '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈' //ganti aj klo mau
-global.author = '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈' //ganti aj klo mau
-global.packname = '𝐂𝐎𝐒𝐓𝐒༑⃟' //ganti aj klo mau
+global.namabot = ' 💠BLUE 🌀 DEMON💠' //ganti aj klo mau
+global.author = '💠BLUE 🌀 DEMON💠' //ganti aj klo mau
+global.packname = 'BLUE' //ganti aj klo mau
 global.url = 'https://Wa.me/2347041039367' //gausah diganti
 
 //===========================//
@@ -146,9 +146,9 @@ else return emot[results[0][0]]
 global.mess = { // bagian ini gausah diganti 
  ingroup: 'This feature can only be used in groups.',
  admin: 'This feature is specifically for group admins.',
- owner: 'You are not the owner.',
- premium: 'You are not a premium user.',
- seller: 'This feature can only be used by resellers and 🕷️𝐌-𝐂𝐑𝐎𝐒𝐒🕸️.',
+ owner: 'Only *BLUE* can use this👺.',
+ premium: 'Who goes you??😡.',
+ seller: 'This feature can only be used by *BLUE* and *BLUE* only.',
  usingsetpp: `Setpp can only be used by the owner, do you think I'm stupid? 🤓`,
  wait: '*Waiting for processing 🗿🚬*',
  success: 'Success Bang 🗿🚬',
