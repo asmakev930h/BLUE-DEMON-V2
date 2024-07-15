@@ -23,15 +23,15 @@ global.location = '1' //Ganti Pake Location Panel Lu
 //===========================//
 
 global.prefa = ['','!','.',',','🐤','🗿']
-global.owner = ['2347049602299']
-global.ownMain = '2347049602299'
+global.owner = ['2347041039367']
+global.ownMain = '2347041039367'
 global.NamaOwner = '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️' //gausah diganti 
 global.sessionName = 'session'
 global.connect = true // Ubah Ke False Jika Ingin Menggunakan Qr Code
 global.namabot = '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈' //ganti aj klo mau
 global.author = '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈' //ganti aj klo mau
 global.packname = '𝐂𝐎𝐒𝐓𝐒༑⃟' //ganti aj klo mau
-global.url = 'https://Wa.me/2347049602299' //gausah diganti
+global.url = 'https://Wa.me/2347041039367' //gausah diganti
 
 //===========================//
 
