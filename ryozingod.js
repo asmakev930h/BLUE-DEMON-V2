@@ -2090,15 +2090,15 @@ break
 case "menu": case "help": case "helep": {
 //text menu
 let njing = `
-   *[ 🕷️ ]  •  💠BLUE 🌀 DEMON💠*
+   *[ 😄 ] •💠BLUE 🌀 DEMON💠*
 
 ╭❐  ⌜ *BLUE 🌀 DEMON* ⌟  ❐
-│⭔ Creator : *THE-ONE*🕷️😈
+│⭔ Creator : *THE-ONE* 💠
 │⭔ version : V5
 │⭔ Type : Case
 │⭔ Status : Ready
 │⭔ Mode : ${ryozingod.self ? '✱ Public ༣' : '✲ Self ༣'}
-│⭔ User : ${Object.keys(db.data.users).length}
+│⭔ User : 1
 │⭔ Prefix : Single 
 ╰❐
 
@@ -2137,7 +2137,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": " 💠*BLUE 🌀 DEMON*💠"
+"text": " 💠BLUE 🌀 DEMON💠"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -2221,11 +2221,11 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": " 💠*BLUE 🌀 DEMON*💠"
+"text": " 💠BLUE 🌀 DEMON💠"
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : ' 💠*BLUE 🌀 DEMON*💠', url : "https://wa.me/2347041039367", merchant_url : "https://wa.me/2347041039367" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : ' 💠BLUE 🌀 DEMON💠', url : "https://wa.me/2347041039367", merchant_url : "https://wa.me/2347041039367" }`}
 ],
 "messageParamsJson": ""
 }
@@ -2245,14 +2245,14 @@ break
 //=================================================//
 case "allmenu": case "allcmd": {
 let itsmenu = `
-  *[🕷️] • 💠BLUE 🌀 DEMON💠*
+  *[🕷️] •💠BLUE 🌀 DEMON💠*
 
 ⭔ Creator : *THE-ONE*🕷️😈
 ⭔ Version : V2
 ⭔ Type : Case
 ⭔ Status : Ready
 ⭔ Mode : ${ryozingod.Self ? '✱ Public ༣' : '✲ Self ༣'}
-⭔ User : ${Object.keys(db.data.users).length}
+⭔ User : 1
 ⭔ Prefix : Single 
  
 ╭❐   \`Owner Cmd\` 
@@ -2678,7 +2678,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": ' 💠*BLUE 🌀 DEMON*💠',
+"newsletterName": ' 💠BLUE 🌀 DEMON💠',
 "serverMessageId": 1
 },
 },
@@ -2691,7 +2691,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": " 💠*BLUE 🌀 DEMON*💠"
+"text": " 💠BLUE 🌀 DEMON💠"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -2730,7 +2730,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": " 💠*BLUE 🌀 DEMON*💠"
+"text": " 💠BLUE 🌀 DEMON💠"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -2753,14 +2753,14 @@ break
 //=================================================//
 case "bugmenu": {
 let itsmenu = `
-  *[🕷️] • 💠*BLUE 🌀 DEMON*💠*
+  *[🕷️] • 💠BLUE 🌀 DEMON💠*
 
-⭔ Creator : *BLUE*💠
-⭔ Library : WS-Baileys
+⭔ Creator : *BLUE* 💠
+⭔ Version : V2
 ⭔ Type : Case
 ⭔ Status : Ready
 ⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
-⭔ User : ${Object.keys(db.data.users).length}
+⭔ User : 1
 ⭔ Prefix : Single 
 
 ╭❐  *Bug Menu*
@@ -2823,7 +2823,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*[🕷️] •BLUE 🌀 DEMON*"
+"text": "[💠] •BLUE 🌀 DEMON"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -2866,7 +2866,7 @@ interactiveMessage: {
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : '*[💠] • 💠BLUE 🌀 DEMON💠*', url : "https://Wa.me/2347041039367", merchant_url : "https://Wa.me/2347041039367" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : '[💠] • 💠BLUE 🌀 DEMON💠', url : "https://Wa.me/2347041039367", merchant_url : "https://Wa.me/2347041039367" }`}
 ],
 "messageParamsJson": ""
 }
@@ -2885,9 +2885,9 @@ break
 //=================================================//
 case "ddosmenu": {
 let itsmenu = `
-  *[🔵] • 💠*BLUE 🌀 DEMON*💠*
+  *[🔵] • 💠BLUE 🌀 DEMON💠*
 
-⭔ Creator : *BLUE*💠
+⭔ Creator : *BLUE* 💠
 ⭔ Library : WS-Baileys
 ⭔ Type : Case
 ⭔ Status : Ready
@@ -3007,7 +3007,7 @@ let totalCases = caseCount,
 listCases = caseNames.join('\n⭔ ');
 
 joreply(`
-╭❐  ⌜  💠*BLUE 🌀 DEMON*💠⌟  ❐
+╭❐  ⌜ *💠BLUE 🌀 DEMON💠* ⌟  ❐
 │⭔ Creator : BLUE💠🌀
 │⭔ Version : V2
 │⭔ Type : Case
