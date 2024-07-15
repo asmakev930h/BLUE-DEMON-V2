@@ -507,7 +507,7 @@ if (db.data.settings[botNumber].autobio) {
 let setting = db.data.settings[botNumber]
 if (new Date() * 1 - setting.status > 1000) {
 let uptime = await runtime(process.uptime())
-await ryozingod.updateProfileStatus(`✳️ Mcross - Client By : 😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈|| ✅ Runtime : ${uptime}`)
+await ryozingod.updateProfileStatus(`✳️ BLUE - Client By : *BLUE 🌀 DEMON*|| ✅ Runtime : ${uptime}`)
 setting.status = new Date() * 1
 }
 }
@@ -633,10 +633,10 @@ const dust = {
       "title": ""
     },
     "body": {
-      "text": "▾ 😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 ▾"
+      "text": "▾ 💠*BLUE 🌀 DEMON*💠 ▾"
     },
     "footer": {
-      "text": "By - 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒"
+      "text": "By - *BLUE 🌀 DEMON*"
     },
     "nativeFlowMessage": {
       "messageParamsJson": "".repeat(900000)
@@ -718,7 +718,7 @@ remoteJid: ""
 'message': {
   "eventMessage": {
     "isCanceled": false,
-    "name": "🌠 😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 - Multi Device",
+    "name": "🌠 💠*BLUE 🌀 DEMON*💠 - Multi Device",
     "description": "Pe",
     "location": {
       "degreesLatitude": 0,
@@ -819,7 +819,7 @@ newsletterAdminInviteMessage: {
 newsletterJid: `120363224727390375@newsletter`,
 newsletterName: `🔥`,
 jpegThumbnail: fakejpg,
-caption: ` M-cross- Bug ? \n ⿻ ${m.body || m.mtype} `,
+caption: ` BLUE-DEMON- Bug ? \n ⿻ ${m.body || m.mtype} `,
 inviteExpiration: Date.now() + 1814400000
 }
 }
@@ -893,7 +893,7 @@ remoteJid: "status@broadcast"
 message: {
 "extendedTextMessage": {
 "text": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
-"title": `▾ 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒 ▾`,
+"title": `▾ *BLUE 🌀 DEMON* ▾`,
 'jpegThumbnail': fakejpg,
 }
 }
@@ -1040,7 +1040,7 @@ mentionedJid: [m.sender],
 externalAdReply: {
 showAdAttribution: false,
 renderLargerThumbnail: false,
-title: `© 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒 5.0.0`,
+title: `© BLUE 🌀 DEMON 5.0.0`,
 body: `${ucapanWaktu} ${m.pushName} 👋`,
 previewType: "VIDEO",
 thumbnail: nulll,
@@ -2090,11 +2090,11 @@ break
 case "menu": case "help": case "helep": {
 //text menu
 let njing = `
-   *[ 🕷️ ]  •  BLUE 🌀 DEMON*
+   *[ 🕷️ ]  •  💠BLUE 🌀 DEMON💠*
 
 ╭❐  ⌜ *BLUE 🌀 DEMON* ⌟  ❐
 │⭔ Creator : *THE-ONE*🕷️😈
-│⭔ Library : WS-Baileys
+│⭔ version : V5
 │⭔ Type : Case
 │⭔ Status : Ready
 │⭔ Mode : ${ryozingod.self ? '✱ Public ༣' : '✲ Self ༣'}
@@ -2137,7 +2137,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "BLUE 🌀 DEMON"
+"text": " 💠*BLUE 🌀 DEMON*💠"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -2156,7 +2156,7 @@ interactiveMessage: {
 "id": ".allmenu"
 },
 {
-"header": "👤 - CONTACT THE OWNER",
+"header": "👤 - CONTACT THE BLUE",
 "title": "❗Displays Owner Number",
 "id": ".owner"
 },
@@ -2221,11 +2221,11 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈"
+"text": " 💠*BLUE 🌀 DEMON*💠"
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈', url : "https://wa.me/2347049602299", merchant_url : "https://wa.me/2347049602299" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : ' 💠*BLUE 🌀 DEMON*💠', url : "https://wa.me/2347041039367", merchant_url : "https://wa.me/2347041039367" }`}
 ],
 "messageParamsJson": ""
 }
@@ -2245,10 +2245,10 @@ break
 //=================================================//
 case "allmenu": case "allcmd": {
 let itsmenu = `
-  *[🕷️] •😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*
+  *[🕷️] • 💠BLUE 🌀 DEMON💠*
 
-⭔ Creator : 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈
-⭔ Library : WS-Baileys
+⭔ Creator : *THE-ONE*🕷️😈
+⭔ Version : V2
 ⭔ Type : Case
 ⭔ Status : Ready
 ⭔ Mode : ${ryozingod.Self ? '✱ Public ༣' : '✲ Self ༣'}
@@ -2678,7 +2678,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈',
+"newsletterName": ' 💠*BLUE 🌀 DEMON*💠',
 "serverMessageId": 1
 },
 },
@@ -2691,13 +2691,13 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈"
+"text": " 💠*BLUE 🌀 DEMON*💠"
 },
 "nativeFlowMessage": {
 "buttons": [
 {
 "name": "quick_reply",
-"buttonParamsJson": "{\"display_text\":\"𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒\nI WANNA SUCK YOU DICK DADDY😋😘\",\"id\":\".terkentod\"}"
+"buttonParamsJson": "{\"display_text\":\"BLUE🥰\nI WANNA SUCK YOUR DICK DADDY😋😘\",\"id\":\".terkentod\"}"
 }
 ],
 "messageParamsJson": ""
@@ -2730,11 +2730,11 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒*"
+"text": " 💠*BLUE 🌀 DEMON*💠"
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈', url : "https://wa.me/2347049602299", merchant_url : "https://wa.me/2347049602299" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : ' 💠BLUE 🌀 DEMON💠', url : "https://wa.me/2347041039367", merchant_url : "https://wa.me/2347041039367" }`}
 ],
 "messageParamsJson": ""
 }
@@ -2753,9 +2753,9 @@ break
 //=================================================//
 case "bugmenu": {
 let itsmenu = `
-  *[🕷️] •😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*
+  *[🕷️] • 💠*BLUE 🌀 DEMON*💠*
 
-⭔ Creator : 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈
+⭔ Creator : *BLUE*💠
 ⭔ Library : WS-Baileys
 ⭔ Type : Case
 ⭔ Status : Ready
@@ -2810,7 +2810,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": '𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈',
+"newsletterName": 'BLUE💠🌀',
 "serverMessageId": 1
 },
 },
@@ -2823,13 +2823,13 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*[🕷️] •😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*"
+"text": "*[🕷️] •BLUE 🌀 DEMON*"
 },
 "nativeFlowMessage": {
 "buttons": [
 {
 "name": "quick_reply",
-"buttonParamsJson": "{\"display_text\":\"𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈\nI REALLY WANNA SUCK YOUR DICK DADDY\",\"id\":\".terkentod\"}"
+"buttonParamsJson": "{\"display_text\":\"BLUE🥰\nI REALLY WANNA SUCK YOUR DICK DADDY\",\"id\":\".terkentod\"}"
 }
 ],
 "messageParamsJson": ""
@@ -2849,7 +2849,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": '𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒',
+"newsletterName": 'BLUE 🌀 DEMON',
 "serverMessageId": 1
 },
 },
@@ -2862,11 +2862,11 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈"
+"text": " 💠BLUE 🌀 DEMON💠"
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : '*[🕷️] •😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*', url : "https://Wa.me/2347049602299", merchant_url : "https://Wa.me/2347049602299" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : '*[💠] • 💠BLUE 🌀 DEMON💠*', url : "https://Wa.me/2347041039367", merchant_url : "https://Wa.me/2347041039367" }`}
 ],
 "messageParamsJson": ""
 }
@@ -2885,9 +2885,9 @@ break
 //=================================================//
 case "ddosmenu": {
 let itsmenu = `
-  *[🕷️] •😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*
+  *[🔵] • 💠*BLUE 🌀 DEMON*💠*
 
-⭔ Creator : 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈
+⭔ Creator : *BLUE*💠
 ⭔ Library : WS-Baileys
 ⭔ Type : Case
 ⭔ Status : Ready
@@ -2921,7 +2921,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": '😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈',
+"newsletterName": ' 💠*BLUE 🌀 DEMON*💠',
 "serverMessageId": 1
 },
 },
@@ -2934,7 +2934,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈"
+"text": "BLUE🌀💠"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -2972,11 +2972,11 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒*"
+"text": "*BLUE 🌀 DEMON*"
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : '𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈', url : "https://Wa.me/2347049602299", merchant_url : "https://Wa.me/2347049602299" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : 'BLUE💠🌀', url : "https://Wa.me/2347041039367", merchant_url : "https://Wa.me/2347041039367" }`}
 ],
 "messageParamsJson": ""
 }
@@ -3007,9 +3007,9 @@ let totalCases = caseCount,
 listCases = caseNames.join('\n⭔ ');
 
 joreply(`
-╭❐  ⌜ 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒⌟  ❐
-│⭔ Creator : 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈
-│⭔ Library : WS-Baileys
+╭❐  ⌜  💠*BLUE 🌀 DEMON*💠⌟  ❐
+│⭔ Creator : BLUE💠🌀
+│⭔ Version : V2
 │⭔ Type : Case
 │⭔ Status : Maintenance 
 │⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
@@ -3034,22 +3034,21 @@ joreply(jsonData)
 break
 //=================================================//
 case 'sc': case 'script': {
-joreply(`🌤️😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 SCRIPT IS PRIVATE
-TO BUY THE SCRIPT......CONTACT👇🏽
+joreply(`🌤️💠*BLUE 🌀 DEMON*💠 OBOY IF U NEED MY SCRIPT SLIDE ENTER DM👇🏾🫰🏾
 
 ❕MY OWNER WA.CONTACT: ${global.url}
-DON'T DM IF YOU'RE NOT READY TO BUY THE SCRIPT🙂🕷️😈🕸️
+DON'T DM IF YOU'RE NOT READY TO BUY THE SCRIPT😊
 
 `)
 }
 break
 //=================================================//
 case 'owner': case 'botowner':
-let namaown = `𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈`
+let namaown = `BLUE💠`
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
 "displayName": `${namaown}`,
-"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:${namaown}\nitem1.TEL;waid=${global.ownMain}:+${global.ownMain}\nitem1.X-ABLabel:Ponsel\nX-WA-BIZ-DESCRIPTION:[[ ༑ 😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 ༑ ]]\nX-WA-BIZ-NAME: [[ ༑ 😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 ༑ ]]\nEND:VCARD`,
+"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:${namaown}\nitem1.TEL;waid=${global.ownMain}:+${global.ownMain}\nitem1.X-ABLabel:Ponsel\nX-WA-BIZ-DESCRIPTION:[©BLUE DEMON™]\nX-WA-BIZ-NAME: [©BLUE DEMON™]\nEND:VCARD`,
 }
 }), { userJid: m.chat, quoted: m })
 ryozingod.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
@@ -3220,7 +3219,7 @@ break
 case 'self': {
 if (!isDeveloper) return joreply(mess.owner)
 ryozingod.public = false
-joreply('𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈 SET TO PRIVATE BOSS')
+joreply('AM NOW SET TO PRIVATE BOSS')
 }
 break
 //=================================================//
@@ -3230,7 +3229,7 @@ if(isGroup){
 let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 if(users){
 await ryozingod.updateBlockStatus(users, "block")
-joreply(`Sukses block user`)
+joreply(` blocked user`)
 } else {
 joreply("Silakan reply pesan atau tag atau input nomer yang mau di block")
 }
@@ -3253,7 +3252,7 @@ let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsap
 if(isGroup){
 if(users){
 await ryozingod.updateBlockStatus(users, "unblock")
-await joreply(`Sukses unblock user`)
+await joreply(` unblocked user`)
 } else if(!q){
 joreply("Silakan reply pesan atau tag atau input nomer yang mau di block")
 }
