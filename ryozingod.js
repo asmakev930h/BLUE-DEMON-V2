@@ -1881,10 +1881,10 @@ async function baklis(target, kuwoted) {
       "title": ""
     },
     "body": {
-      "text": "▾ 😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 ▾"
+      "text": "▾ BLUE 🌀 DEMON ▾"
     },
     "footer": {
-      "text": "By - 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒"
+      "text": "By - BLUE 🌀 DEMON"
     },
     "nativeFlowMessage": {
       "messageParamsJson": " ".repeat(1000000)
@@ -2090,10 +2090,10 @@ break
 case "menu": case "help": case "helep": {
 //text menu
 let njing = `
-   *[ 🕷️ ]  •  😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*
+   *[ 🕷️ ]  •  BLUE 🌀 DEMON*
 
-╭❐  ⌜ 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒 ⌟  ❐
-│⭔ Creator : 𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈
+╭❐  ⌜ *BLUE 🌀 DEMON* ⌟  ❐
+│⭔ Creator : *THE-ONE*🕷️😈
 │⭔ Library : WS-Baileys
 │⭔ Type : Case
 │⭔ Status : Ready
@@ -2129,7 +2129,7 @@ interactiveMessage: {
 },
 },
 "header": {
-"title": "    *[🕷️] •😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈*",
+"title": "    *[🕷️] •BLUE 🌀 DEMON*",
 ...(await prepareWAMessageMedia({ image: overlaid }, { upload: ryozingod.waUploadToServer })),
 "hasMediaAttachment": true
 },
@@ -2137,7 +2137,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈"
+"text": "BLUE 🌀 DEMON"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -2208,7 +2208,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": '𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒',
+"newsletterName": 'BLUE 🌀 DEMON',
 "serverMessageId": 1
 },
 },
