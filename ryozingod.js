@@ -2156,7 +2156,7 @@ interactiveMessage: {
 "id": ".allmenu"
 },
 {
-"header": "👤 - CONTACT THE BLUE",
+"header": "👤 - CONTACT BLUE",
 "title": "❗Displays Owner Number",
 "id": ".owner"
 },
@@ -2245,15 +2245,15 @@ break
 //=================================================//
 case "allmenu": case "allcmd": {
 let itsmenu = `
-  *[🕷️] •💠BLUE 🌀 DEMON💠*
+  *[🕷️] •💠𝙱𝙻𝚄𝙴 🌀 𝙳𝙴𝙼𝙾𝙽💠*
+⭔ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : *𝚃𝙷𝙴-𝙾𝙽𝙴* 🕷️😈
+⭔ 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : 𝚅𝟸
+⭔ 𝚃𝚢𝚙𝚎 : 𝙲𝚊𝚜𝚎
+⭔ 𝚂𝚝𝚊𝚝𝚞𝚜 : 𝚁𝚎𝚊𝚍𝚢
+⭔ 𝙼𝚘𝚍𝚎 : ${ryozingod.Self ? '✱ Public ༣' : '✲ Self ༣'}
+⭔ 𝚄𝚜𝚎𝚛 : 𝟷
+⭔ 𝙿𝚛𝚎𝚏𝚒𝚡 : 𝚂𝚒𝚗𝚐𝚕𝚎
 
-⭔ Creator : *THE-ONE*🕷️😈
-⭔ Version : V2
-⭔ Type : Case
-⭔ Status : Ready
-⭔ Mode : ${ryozingod.Self ? '✱ Public ༣' : '✲ Self ༣'}
-⭔ User : 1
-⭔ Prefix : Single 
  
 ╭❐   \`Owner Cmd\` 
 │
@@ -3231,7 +3231,7 @@ if(users){
 await ryozingod.updateBlockStatus(users, "block")
 joreply(` blocked user`)
 } else {
-joreply("Silakan reply pesan atau tag atau input nomer yang mau di block")
+joreply("error during,not blocked")
 }
 } else if(!isGroup){
 if(q){
