@@ -2764,7 +2764,7 @@ let itsmenu = `
 ⭔ Prefix : Single 
 
 ╭❐  *Bug Menu*
-│
+│⭔ ${prefix}planetary-devastation 
 │⭔ ${prefix}null-chace jumlah
 │⭔ ${prefix}plerku jumlah
 │⭔ ${prefix}bug-gc jumlah
@@ -3013,7 +3013,7 @@ joreply(`
 │⭔ Type : Case
 │⭔ Status : Maintenance 
 │⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
-│⭔ User : ${Object.keys(db.data.users).length}
+│⭔ User : 1
 │⭔ Prefix : Single 
 │⭔ Resp Speed : ${latensi.toFixed(4)}
 │⭔ Ram : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
@@ -3034,7 +3034,7 @@ joreply(jsonData)
 break
 //=================================================//
 case 'sc': case 'script': {
-joreply(`🌤️💠*BLUE 🌀 DEMON*💠 OBOY IF U NEED MY SCRIPT SLIDE ENTER DM👇🏾🫰🏾
+joreply(`🌤️💠 *BLUE 🌀 DEMON* 💠 YOO IF U NEED MY BOT ENTER DM👇🏾🫰🏾
 
 ❕MY OWNER WA.CONTACT: ${global.url}
 DON'T DM IF YOU'RE NOT READY TO BUY THE SCRIPT😊
@@ -3133,12 +3133,12 @@ ryozingod.sendMessage(m.chat, { image: { url: ppWong }}, { quoted: m })
 }
 break
 //=================================================//
-case 'changemenu':
+case 'bluemenu':
 if (!isDeveloper) return joreply(mess.owner)
 if (args.length < 1) return joreply(`Example ${prefix + command} button/non`)
 if (q == 'button') {
 db.data.settings[botNumber].menuType = 'buttonImage'
-joreply(`Successfully Changed Menu To Button List Image`)
+joreply(`Successfully Changed Menu To Button master`)
 } else if (q == 'non') {
 db.data.settings[botNumber].menuType = 'imageIos'
 joreply(`Successfully Changed Menu To ImageIos`)
