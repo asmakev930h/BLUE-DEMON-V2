@@ -2090,16 +2090,16 @@ break
 case "menu": case "help": case "helep": {
 //text menu
 let njing = `
-   *[ 😄 ] •💠BLUE 🌀 DEMON💠*
+   *[🕷️] •💠𝙱𝙻𝚄𝙴 🌀 𝙳𝙴𝙼𝙾𝙽💠*
 
-╭❐  ⌜ *BLUE 🌀 DEMON* ⌟  ❐
-│⭔ Creator : *THE-ONE* 💠
-│⭔ version : V5
-│⭔ Type : Case
-│⭔ Status : Ready
-│⭔ Mode : ${ryozingod.self ? '✱ Public ༣' : '✲ Self ༣'}
-│⭔ User : 1
-│⭔ Prefix : Single 
+╭❐ ⌜ *•💠𝙱𝙻𝚄𝙴 🌀 𝙳𝙴𝙼𝙾𝙽💠* ⌟ ❐
+│⭔ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : *𝚃𝙷𝙴-𝙾𝙽𝙴* 🕷️😈
+│⭔ 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : 𝚅𝟸
+│⭔ 𝚃𝚢𝚙𝚎 : 𝙲𝚊𝚜𝚎
+│⭔ 𝚂𝚝𝚊𝚝𝚞𝚜 : 𝚁𝚎𝚊𝚍𝚢
+│⭔ 𝙼𝚘𝚍𝚎 : ${ryozingod.Self ? '✱ Public ༣' : '✲ Self ༣'}
+│⭔ 𝚄𝚜𝚎𝚛 : 𝟷
+│⭔ 𝙿𝚛𝚎𝚏𝚒𝚡 : 𝚂𝚒𝚗𝚐𝚕𝚎
 ╰❐
 
 ╭❐  \`Main Menu\`
@@ -2107,7 +2107,7 @@ let njing = `
 │⭔${prefix}bugmenu
 │⭔${prefix}ddosmenu
 │⭔${prefix}allmenu
-│⭔${prefix}changemenu button/non
+│⭔${prefix}bluemenu button/non
 │⭔${prefix}owner
 │⭔${prefix}botstatus
 │
@@ -3020,8 +3020,6 @@ joreply(`
 │⭔ Runtime : ${run}
 ╰❐
 
-❐ Total case: ${totalCases}\n\n⭔ ${totalCases > 0 ? listCases : "No cases found."}
-
 `)
 }
 break
@@ -3033,7 +3031,7 @@ joreply(jsonData)
 }
 break
 //=================================================//
-case 'sc': case 'script': {
+case 'sc': case 'script': case 'bluescript': {
 joreply(`🌤️💠 *BLUE 🌀 DEMON* 💠 YOO IF U NEED MY BOT ENTER DM👇🏾🫰🏾
 
 ❕MY OWNER WA.CONTACT: ${global.url}
@@ -3511,7 +3509,7 @@ fs.unlinkSync(pop)
 }
 break
 //=================================================//
-case 'toimage':
+case 'image':
 case 'toimg': {
 if (!/webp/.test(mime)) return joreply(`Reply sticker dengan caption *${prefix + command}*`)
 joreply(mess.wait)
