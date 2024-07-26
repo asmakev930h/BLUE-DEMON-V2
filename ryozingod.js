@@ -3030,6 +3030,11 @@ fs.writeFileSync('pukimak.json', jsonData);
 joreply(jsonData)
 }
 break
+//=================================================//	
+case 'speed': case 'ping': case 'blueping': {
+joreply(`*𝙱𝙻𝚄𝙴  ν2 𝚂𝙿𝙴𝙴𝙳 ➟*  ${latensi.toFixed(4)}𝙼𝚂`)
+}
+break		
 //=================================================//
 case 'sc': case 'script': case 'bluescript': {
 joreply(`🌤️💠 *BLUE 🌀 DEMON* 💠 YOO IF U NEED MY BOT ENTER DM👇🏾🫰🏾
